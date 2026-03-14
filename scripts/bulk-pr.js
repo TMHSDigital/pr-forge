@@ -92,9 +92,22 @@ function main() {
     }
 
     run("git checkout main");
+    try {
+      run(`git branch -D ${branchName}`);
+    } catch (_) {}
     run(`git checkout -b ${branchName}`);
-    run(["git", "add", relativePath]);
-    run(["git", "commit", "-m", commitMsg]);
+    const gitPath = relativePath.replace(/\\/g, "/");
+    run(["git", "add", gitPath]);
+    try {
+      run(["git", "commit", "-m", commitMsg]);
+    } catch (e) {
+      run("git checkout main");
+      try {
+        run(`git branch -D ${branchName}`);
+      } catch (_) {}
+      console.warn(`  Skip: nothing to commit (file may already exist on main)`);
+      continue;
+    }
     run(`git push -u origin ${branchName}`);
 
     let prNumber;
