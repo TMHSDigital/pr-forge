@@ -1,0 +1,84 @@
+name: Agent Task
+description: Assign a structured task to an AI agent (Claude Code, Cursor, Copilot, or custom)
+title: "[Agent Task] "
+labels: ["agent-task", "automated"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template creates a structured task for an AI agent. Fill in the fields precisely — agents read these fields programmatically.
+
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Target Agent
+      options:
+        - Claude Code
+        - Cursor
+        - GitHub Copilot
+        - Custom Webhook Agent
+        - Any Agent
+    validations:
+      required: true
+
+  - type: dropdown
+    id: task_type
+    attributes:
+      label: Task Type
+      options:
+        - add-prompt
+        - update-prompt
+        - fix-validation-error
+        - reorganize-category
+        - update-documentation
+        - other
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: Clearly state what the agent must accomplish.
+      placeholder: |
+        Create a new prompt file at prompts/coding/explain-big-o.md.
+        Follow the schema in prompts/schema.json exactly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        - [ ] File exists at the correct path
+        - [ ] Front matter passes validation
+        - [ ] PR opened against main
+    validations:
+      required: true
+
+  - type: input
+    id: branch_name
+    attributes:
+      label: Branch Name
+      placeholder: "prompt/explain-big-o"
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - low
+        - medium
+        - high
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agent_instructions
+    attributes:
+      label: Agent Instructions
+      options:
+        - label: Run validator before committing
+        - label: Open PR as draft first
+        - label: Do not merge without human approval

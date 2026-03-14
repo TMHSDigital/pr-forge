@@ -1,0 +1,82 @@
+---
+description: Rules for contributing prompts to pr-forge
+globs: ["prompts/**/*.md"]
+alwaysApply: true
+---
+
+# Cursor Contributing Rules for pr-forge
+
+You are helping contribute to a community prompt library. Follow these rules precisely.
+
+## File Location
+
+All prompt files go in `prompts/<category>/` where category is one of:
+- `general`
+- `coding`
+- `writing`
+- `research`
+- `roleplay`
+- `system`
+
+## Required File Format
+
+Every `.md` file in `prompts/` MUST start with this YAML front matter:
+
+```yaml
+---
+title: "Descriptive title"
+description: "One sentence about what this prompt does"
+category: "one of the categories above"
+tags: ["tag1", "tag2"]
+model_target: "any|gpt-4|claude|gemini"
+author: "github-username or agent:cursor"
+version: "1.0"
+---
+```
+
+Followed by these sections:
+
+```markdown
+## Prompt
+
+<the actual prompt text here>
+
+## Usage
+
+<when and how to use this prompt>
+
+## Example Output
+
+<optional but recommended>
+
+## Notes
+
+<optional caveats or tips>
+```
+
+## File Naming
+
+- Lowercase kebab-case only
+- Extension must be `.md`
+- Describe what the prompt does: `summarize-meeting-notes.md`
+
+## Validation
+
+After creating or editing a prompt file, run:
+
+```bash
+node scripts/validate.js <path-to-file>
+```
+
+## Commit Format
+
+```
+feat(prompts): add <short description of prompt>
+```
+
+## Do Not
+
+- Edit files outside `prompts/`, `scripts/`, or documentation
+- Create prompts that are harmful, deceptive, or low-effort
+- Duplicate existing prompts
+- Modify `.github/workflows/` files

@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prompt File Front Matter Schema",
+  "type": "object",
+  "required": ["title", "description", "category", "tags", "model_target", "author", "version"],
+  "properties": {
+    "title": { "type": "string", "minLength": 5, "maxLength": 100 },
+    "description": { "type": "string", "minLength": 10, "maxLength": 300 },
+    "category": {
+      "type": "string",
+      "enum": ["general", "coding", "writing", "research", "roleplay", "system"]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "minItems": 1,
+      "maxItems": 10
+    },
+    "model_target": {
+      "type": "string",
+      "enum": ["any", "gpt-4", "gpt-4o", "claude", "claude-3", "claude-sonnet", "gemini", "gemini-pro", "llama", "mistral", "other"]
+    },
+    "author": { "type": "string", "minLength": 1, "maxLength": 100 },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "license": { "type": "string" }
+  },
+  "additionalProperties": false
+}

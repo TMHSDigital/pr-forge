@@ -1,0 +1,75 @@
+name: Add a Prompt
+description: Request or submit a new prompt for the library
+title: "[Prompt] "
+labels: ["prompt", "contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to request or describe a new prompt. AI agents read this template to create prompt files autonomously.
+
+  - type: input
+    id: title
+    attributes:
+      label: Prompt Title
+      description: Short, descriptive title for the prompt
+      placeholder: "Explain a concept like I'm five"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One sentence describing what the prompt does
+      placeholder: "Simplifies complex topics into plain language for beginners"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - general
+        - coding
+        - writing
+        - research
+        - roleplay
+        - system
+    validations:
+      required: true
+
+  - type: textarea
+    id: prompt_text
+    attributes:
+      label: Prompt Text
+      description: The actual prompt. Use {{variable}} for placeholders.
+      placeholder: "Explain {{topic}} as if I am five years old."
+    validations:
+      required: true
+
+  - type: textarea
+    id: usage
+    attributes:
+      label: Usage Instructions
+      description: When and how to use this prompt
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags
+      placeholder: "beginner, explanation, eli5"
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I searched existing prompts and this is not a duplicate
+          required: true
+        - label: The prompt is genuinely useful, not filler
+          required: true
