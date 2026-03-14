@@ -46,6 +46,12 @@ node scripts/bulk-from-manifest.js --limit 50   # batch of 50; repeat or omit fo
 
 # Option B: use generated file as manifest (no merge)
 node scripts/bulk-from-manifest.js scripts/generated-ideas.json --limit 50
+
+# Batched runs (use --offset to advance through the list)
+# Batch 1: --offset 0 --limit 50  (or just --limit 50)
+# Batch 2: --offset 50 --limit 50
+# Batch 3: --offset 100 --limit 50
+node scripts/bulk-from-manifest.js scripts/generated-ideas.json --offset 50 --limit 50
 ```
 
 Edit `scripts/idea-seeds.json` to add templates (`title`, `description` with `{0}` placeholder, `category`, `tags`) and seeds per category.

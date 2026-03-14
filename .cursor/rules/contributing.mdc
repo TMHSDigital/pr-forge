@@ -98,7 +98,9 @@ node scripts/bulk-from-manifest.js
 
 ```bash
 node scripts/generate-ideas.js --count 500 --output scripts/generated-ideas.json
-node scripts/bulk-from-manifest.js scripts/generated-ideas.json [--limit 50]
+node scripts/bulk-from-manifest.js scripts/generated-ideas.json --limit 50
+# Batch 2: --offset 50 --limit 50
+# Batch 3: --offset 100 --limit 50
 ```
 
 Edit `scripts/idea-seeds.json` to add templates and seeds. Use `--dry-run` to validate without pushing or opening PRs.
