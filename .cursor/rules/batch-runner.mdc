@@ -1,0 +1,58 @@
+---
+description: Instructions for running bulk prompt batches via the automated pipeline
+globs: ["scripts/**"]
+alwaysApply: true
+---
+
+# Batch Runner Instructions
+
+When asked to "run a batch", "keep going", "run the next batch", or "continue the pipeline", follow these steps exactly.
+
+## 1. Determine the offset
+
+Check how many prompts have been merged so far:
+
+```bash
+gh pr list --state merged --limit 500 --json number -q "length"
+```
+
+Subtract any PRs that were NOT from the bulk pipeline (the first 3-6 were manual). A safe formula: `offset = merged_count - 5`. Round down to the nearest 50 if resuming.
+
+Alternatively, if the user provides an offset, use that.
+
+## 2. Run the batch
+
+From the repo root (`e:\pr-forge`), run:
+
+```bash
+node scripts/bulk-from-manifest.js scripts/generated-ideas.json --offset <OFFSET> --limit 50
+```
+
+This command:
+- Generates one prompt `.md` file at a time from the manifest
+- For each file: validates, creates a branch, commits, pushes, opens a PR, enables auto-merge
+- Cleans git state between each prompt so conflicts never accumulate
+- Never crashes the whole batch if one prompt fails
+
+## 3. Monitor output
+
+The script prints a summary at the end of each prompt and a final batch summary. Watch for:
+- `Created: N` — successful PRs
+- `Skipped: N` — prompts already on main
+- `Failed: N` — errors (check stderr for details)
+
+## 4. Report results
+
+After the command finishes, tell the user:
+- How many were created/skipped/failed
+- What the next offset would be (current offset + 50)
+- Whether to continue
+
+## Important rules
+
+- NEVER edit `bulk-pr.js` or `bulk-from-manifest.js` unless explicitly asked
+- NEVER run `git push --force` to main
+- ALWAYS run from `e:\pr-forge` (the repo root)
+- The script handles ALL git operations internally — do NOT run manual git commands before or after
+- If the command fails to start, check for and remove `.git/index.lock` then retry
+- The total manifest has ~500 prompts in `scripts/generated-ideas.json`
