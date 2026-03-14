@@ -1,0 +1,57 @@
+{
+  "templates": [
+    { "category": "coding", "title": "Explain {0}", "description": "Explains {0} in clear terms with examples", "tags": ["explanation", "coding"] },
+    { "category": "coding", "title": "Step-by-step: {0}", "description": "Guides through {0} in ordered steps", "tags": ["tutorial", "coding"] },
+    { "category": "coding", "title": "Checklist for {0}", "description": "Provides a checklist for thorough {0}", "tags": ["checklist", "coding"] },
+    { "category": "coding", "title": "Common mistakes in {0}", "description": "Surfaces common mistakes when doing {0}", "tags": ["pitfalls", "coding"] },
+    { "category": "coding", "title": "Best practices for {0}", "description": "Outlines best practices for {0}", "tags": ["best-practices", "coding"] },
+    { "category": "coding", "title": "Troubleshoot {0}", "description": "Helps troubleshoot issues with {0}", "tags": ["debugging", "coding"] },
+    { "category": "coding", "title": "Review this {0}", "description": "Reviews and gives feedback on {0}", "tags": ["review", "coding"] },
+    { "category": "general", "title": "Explain {0}", "description": "Explains {0} in plain language", "tags": ["explanation", "general"] },
+    { "category": "general", "title": "Step-by-step: {0}", "description": "Breaks down {0} into clear steps", "tags": ["tutorial", "general"] },
+    { "category": "general", "title": "Checklist for {0}", "description": "Checklist to ensure thorough {0}", "tags": ["checklist", "general"] },
+    { "category": "general", "title": "Pros and cons of {0}", "description": "Lists pros and cons of {0}", "tags": ["comparison", "general"] },
+    { "category": "general", "title": "Quick guide to {0}", "description": "Short, actionable guide to {0}", "tags": ["guide", "general"] },
+    { "category": "general", "title": "Common mistakes in {0}", "description": "Common mistakes to avoid when {0}", "tags": ["pitfalls", "general"] },
+    { "category": "writing", "title": "Summarize this {0}", "description": "Summarizes {0} concisely", "tags": ["summary", "writing"] },
+    { "category": "writing", "title": "Rewrite this {0} for clarity", "description": "Rewrites {0} for clarity and impact", "tags": ["clarity", "writing"] },
+    { "category": "writing", "title": "Outline for {0}", "description": "Creates a clear outline for {0}", "tags": ["outline", "writing"] },
+    { "category": "writing", "title": "Tone shift: make this {0}", "description": "Adjusts text to sound more {0}", "tags": ["tone", "writing"] },
+    { "category": "writing", "title": "Expand this {0}", "description": "Expands {0} with detail and examples", "tags": ["expansion", "writing"] },
+    { "category": "research", "title": "Research summary: {0}", "description": "Summarizes key findings on {0}", "tags": ["research", "summary"] },
+    { "category": "research", "title": "Compare options for {0}", "description": "Compares options and tradeoffs for {0}", "tags": ["comparison", "research"] },
+    { "category": "research", "title": "Key questions about {0}", "description": "Frames key questions to explore {0}", "tags": ["questions", "research"] },
+    { "category": "research", "title": "Fact-check claims about {0}", "description": "Helps verify claims about {0}", "tags": ["fact-check", "research"] },
+    { "category": "research", "title": "Literature overview: {0}", "description": "Overview of existing work on {0}", "tags": ["literature", "research"] },
+    { "category": "roleplay", "title": "Act as a {0} expert", "description": "Responds as an expert in {0}", "tags": ["persona", "roleplay"] },
+    { "category": "roleplay", "title": "Interview practice: {0}", "description": "Simulates an interview about {0}", "tags": ["interview", "roleplay"] },
+    { "category": "roleplay", "title": "Debate: argue for and against {0}", "description": "Presents both sides of {0}", "tags": ["debate", "roleplay"] },
+    { "category": "roleplay", "title": "Mentor mode: {0}", "description": "Guides you through {0} as a mentor", "tags": ["mentor", "roleplay"] },
+    { "category": "roleplay", "title": "Critic mode: review this {0}", "description": "Reviews {0} with a critical eye", "tags": ["critic", "roleplay"] },
+    { "category": "system", "title": "Respond only in bullet points about {0}", "description": "Restricts responses to bullets for {0}", "tags": ["format", "system"] },
+    { "category": "system", "title": "Keep answers under 100 words for {0}", "description": "Enforces brevity when discussing {0}", "tags": ["concise", "system"] },
+    { "category": "system", "title": "Always cite sources for {0}", "description": "Requires citations when addressing {0}", "tags": ["citations", "system"] },
+    { "category": "system", "title": "Use simple language for {0}", "description": "Uses simple language when explaining {0}", "tags": ["plain-language", "system"] },
+    { "category": "system", "title": "Structured output for {0}", "description": "Returns structured format for {0}", "tags": ["structure", "system"] }
+  ],
+  "seeds": {
+    "coding": [
+      "regex", "API design", "database migrations", "error handling", "logging", "unit testing", "refactoring", "code review", "async code", "security", "performance", "dependency management", "CI/CD", "Docker", "SQL queries", "REST APIs", "GraphQL", "authentication", "caching", "state management", "type systems", "design patterns", "debugging", "git workflows", "documentation"
+    ],
+    "general": [
+      "decision-making", "time management", "prioritization", "goal setting", "feedback", "negotiation", "presentations", "onboarding", "project planning", "risk assessment", "stakeholder communication", "conflict resolution", "learning new skills", "budget planning", "team dynamics", "remote work", "meetings", "email", "delegation", "crisis response", "change management", "personal productivity", "career planning", "networking", "work-life balance"
+    ],
+    "writing": [
+      "meeting notes", "emails", "reports", "proposals", "documentation", "blog posts", "social media", "press releases", "user stories", "technical specs", "FAQs", "how-to guides", "case studies", "whitepapers", "newsletters", "announcements", "reviews", "feedback", "instructions", "summaries", "abstracts", "bios", "job descriptions", "grant applications", "slide decks"
+    ],
+    "research": [
+      "market analysis", "competitor analysis", "user research", "trends", "benchmarks", "surveys", "interviews", "data analysis", "literature review", "feasibility", "ROI", "risk factors", "best practices", "case studies", "frameworks", "methodologies", "tools comparison", "standards", "regulations", "ethics", "bias", "sources", "synthesis", "recommendations", "gap analysis"
+    ],
+    "roleplay": [
+      "technical interviewer", "product manager", "design critic", "security auditor", "compliance officer", "customer support", "sales lead", "investor", "journalist", "editor", "teacher", "devil's advocate", "mediator", "consultant", "architect", "QA engineer", "data scientist", "legal counsel", "HR advisor", "mentor", "coach", "facilitator", "negotiator", "reviewer", "domain expert"
+    ],
+    "system": [
+      "technical answers", "code explanations", "summaries", "comparisons", "step-by-step guides", "Q&A", "recommendations", "reviews", "translations", "formatting", "outlines", "bullet points", "tables", "decisions", "options", "pros and cons", "definitions", "examples", "citations", "concise replies", "structured data", "checklists", "templates", "scripts", "prompts"
+    ]
+  }
+}

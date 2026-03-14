@@ -1,0 +1,58 @@
+{
+  "prompts": [
+    {
+      "title": "Explain Regex",
+      "description": "Breaks down regular expressions into plain English with examples",
+      "category": "coding",
+      "tags": ["regex", "explanation", "debugging", "pattern"],
+      "slug": "explain-regex",
+      "prompt": "Explain this regular expression: {{regex}}\n\nFor each significant part (anchors, quantifiers, groups, character classes), describe what it does and give a short example of text it would match.",
+      "usage": "Replace `{{regex}}` with any regex (escape backslashes in JSON if needed). Use when debugging or learning an unfamiliar pattern."
+    },
+    {
+      "title": "Second Opinion",
+      "description": "Get a critical, devil's-advocate review of a decision or plan before committing",
+      "category": "general",
+      "tags": ["decision", "review", "critical-thinking", "planning"],
+      "slug": "second-opinion",
+      "prompt": "I'm about to commit to this decision/plan. Play devil's advocate and give me a second opinion.\n\n**Decision/Plan:** {{decision}}\n\n**Context:** {{context}}\n\nIdentify 3–5 risks, blind spots, or alternatives I might have missed. Be direct. Then give a one-line verdict: \"Proceed\" or \"Rethink\" and why.",
+      "usage": "Replace `{{decision}}` with your plan and `{{context}}` with relevant background. Use before major commitments."
+    },
+    {
+      "title": "Meeting Agenda Builder",
+      "description": "Generates a structured meeting agenda from loose topics and goals",
+      "category": "writing",
+      "tags": ["meetings", "agenda", "productivity", "planning"],
+      "slug": "meeting-agenda-builder",
+      "prompt": "Turn these topics into a concise meeting agenda.\n\n**Topics:** {{topics}}\n**Duration:** {{duration}}\n**Attendees:** {{attendees}}\n\nFor each agenda item: give a title, suggested time, owner (if applicable), and one-sentence purpose. Include buffer time. Put the most important item early.",
+      "usage": "Replace placeholders with your meeting info. Use for standups, reviews, kickoffs, or client calls."
+    },
+    {
+      "title": "Code Review Checklist",
+      "description": "Provides a structured review checklist tailored to the code's language and domain",
+      "category": "coding",
+      "tags": ["code-review", "checklist", "quality", "best-practices"],
+      "slug": "code-review-checklist",
+      "prompt": "Generate a code review checklist for this snippet. Tailor it to the language and domain.\n\n```\n{{code}}\n```\n\nOutput a bullet list of 5–10 specific items to verify (logic, edge cases, security, performance, style). Skip generic advice.",
+      "usage": "Replace `{{code}}` with the snippet. Use when preparing a review or self-reviewing before PR."
+    },
+    {
+      "title": "Domain Expert Persona",
+      "description": "Responds as a seasoned expert in a specified field with authority and nuance",
+      "category": "roleplay",
+      "tags": ["persona", "expert", "advice", "domain"],
+      "slug": "domain-expert-persona",
+      "prompt": "Act as a {{domain}} expert with 20+ years of experience. Answer questions with authority, nuance, and specific examples. Flag when something is contested or evolving in the field. Do not hedge unnecessarily.\n\n**Question:** {{question}}",
+      "usage": "Replace `{{domain}}` (e.g. cardiology, Rust, M&A) and `{{question}}`. Use for deep dives or when you need confident, expert-level answers."
+    },
+    {
+      "title": "Bullet-Only Response",
+      "description": "Forces concise bullet-point responses with no prose or filler",
+      "category": "system",
+      "tags": ["format", "concise", "bullets", "structure"],
+      "slug": "bullet-only-response",
+      "prompt": "Respond only with bullet points. No introductory or concluding prose. No \"Here are...\" or \"In summary.\" Each bullet: one clear idea. Use sub-bullets only when necessary. Maximum 10 bullets unless the topic genuinely requires more.",
+      "usage": "Paste this as a system instruction or prepend to your message. Use when you need rapid scanning of answers."
+    }
+  ]
+}

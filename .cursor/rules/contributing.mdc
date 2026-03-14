@@ -74,6 +74,35 @@ node scripts/validate.js <path-to-file>
 feat(prompts): add <short description of prompt>
 ```
 
+## After Opening a PR
+
+Enable auto-merge so the PR merges when checks pass:
+
+```bash
+gh pr merge <number> --auto --squash
+```
+
+**Bulk:** For multiple new prompts, run from repo root (one branch/PR per file, each with auto-merge):
+
+```bash
+node scripts/bulk-pr.js prompts/category/a.md prompts/category/b.md
+```
+
+**Manifest:** Generate many prompts from `scripts/prompts-manifest.json` and open PRs for all in one go:
+
+```bash
+node scripts/bulk-from-manifest.js
+```
+
+**500+ prompts:** Use the idea generator, then bulk-from-manifest (optionally in batches):
+
+```bash
+node scripts/generate-ideas.js --count 500 --output scripts/generated-ideas.json
+node scripts/bulk-from-manifest.js scripts/generated-ideas.json [--limit 50]
+```
+
+Edit `scripts/idea-seeds.json` to add templates and seeds. Use `--dry-run` to validate without pushing or opening PRs.
+
 ## Do Not
 
 - Edit files outside `prompts/`, `scripts/`, or documentation

@@ -16,6 +16,39 @@ When asked to contribute a prompt:
 4. Validate it by running `node scripts/validate.js prompts/<category>/<filename>.md`
 5. Commit with message format: `feat(prompts): add <short description>`
 6. Open a PR using the PR template — fill in all checklist items
+7. Enable auto-merge: `gh pr merge <number> --auto --squash` (so the PR merges when checks pass)
+
+**Bulk workflow:** To open PRs with auto-merge for multiple prompt files in one go:
+
+```bash
+node scripts/bulk-pr.js prompts/category/one.md prompts/category/two.md
+```
+
+Use `--dry-run` to validate and print planned steps without pushing or opening PRs.
+
+**Manifest workflow:** Generate many prompts from `scripts/prompts-manifest.json`, then open a PR per file with auto-merge:
+
+```bash
+node scripts/bulk-from-manifest.js
+```
+
+Add entries to the manifest (title, description, category, tags, optional prompt/usage/slug), run the script, and all get generated + PR'd in one go. Use `--dry-run` to see what would happen.
+
+**Idea generator (500+ prompts):** Generate hundreds of prompt ideas from templates + seeds, then feed into the manifest and bulk PRs:
+
+```bash
+# Generate 500 ideas into a manifest-shaped file
+node scripts/generate-ideas.js --count 500 --output scripts/generated-ideas.json
+
+# Option A: merge into main manifest, then run bulk (or in batches)
+node scripts/generate-ideas.js --count 500 --append-manifest
+node scripts/bulk-from-manifest.js --limit 50   # batch of 50; repeat or omit for all
+
+# Option B: use generated file as manifest (no merge)
+node scripts/bulk-from-manifest.js scripts/generated-ideas.json --limit 50
+```
+
+Edit `scripts/idea-seeds.json` to add templates (`title`, `description` with `{0}` placeholder, `category`, `tags`) and seeds per category.
 
 ## Prompt File Schema
 
