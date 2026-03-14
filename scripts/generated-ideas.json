@@ -276,6 +276,116 @@
       "slug": "explain-documentation"
     },
     {
+      "title": "Explain Kubernetes",
+      "description": "Explains Kubernetes in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "kubernetes"
+      ],
+      "slug": "explain-kubernetes"
+    },
+    {
+      "title": "Explain WebSockets",
+      "description": "Explains WebSockets in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "websockets"
+      ],
+      "slug": "explain-websockets"
+    },
+    {
+      "title": "Explain OAuth",
+      "description": "Explains OAuth in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "oauth"
+      ],
+      "slug": "explain-oauth"
+    },
+    {
+      "title": "Explain linting",
+      "description": "Explains linting in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "linting"
+      ],
+      "slug": "explain-linting"
+    },
+    {
+      "title": "Explain monorepos",
+      "description": "Explains monorepos in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "monorepos"
+      ],
+      "slug": "explain-monorepos"
+    },
+    {
+      "title": "Explain microservices",
+      "description": "Explains microservices in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "microservices"
+      ],
+      "slug": "explain-microservices"
+    },
+    {
+      "title": "Explain testing strategies",
+      "description": "Explains testing strategies in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "testing-strategies"
+      ],
+      "slug": "explain-testing-strategies"
+    },
+    {
+      "title": "Explain environment variables",
+      "description": "Explains environment variables in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "environment-variables"
+      ],
+      "slug": "explain-environment-variables"
+    },
+    {
+      "title": "Explain rate limiting",
+      "description": "Explains rate limiting in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "rate-limiting"
+      ],
+      "slug": "explain-rate-limiting"
+    },
+    {
+      "title": "Explain observability",
+      "description": "Explains observability in clear terms with examples",
+      "category": "coding",
+      "tags": [
+        "explanation",
+        "coding",
+        "observability"
+      ],
+      "slug": "explain-observability"
+    },
+    {
       "title": "Step-by-step: regex",
       "description": "Guides through regex in ordered steps",
       "category": "coding",
@@ -549,6 +659,116 @@
         "documentation"
       ],
       "slug": "step-by-step-documentation"
+    },
+    {
+      "title": "Step-by-step: Kubernetes",
+      "description": "Guides through Kubernetes in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "kubernetes"
+      ],
+      "slug": "step-by-step-kubernetes"
+    },
+    {
+      "title": "Step-by-step: WebSockets",
+      "description": "Guides through WebSockets in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "websockets"
+      ],
+      "slug": "step-by-step-websockets"
+    },
+    {
+      "title": "Step-by-step: OAuth",
+      "description": "Guides through OAuth in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "oauth"
+      ],
+      "slug": "step-by-step-oauth"
+    },
+    {
+      "title": "Step-by-step: linting",
+      "description": "Guides through linting in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "linting"
+      ],
+      "slug": "step-by-step-linting"
+    },
+    {
+      "title": "Step-by-step: monorepos",
+      "description": "Guides through monorepos in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "monorepos"
+      ],
+      "slug": "step-by-step-monorepos"
+    },
+    {
+      "title": "Step-by-step: microservices",
+      "description": "Guides through microservices in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "microservices"
+      ],
+      "slug": "step-by-step-microservices"
+    },
+    {
+      "title": "Step-by-step: testing strategies",
+      "description": "Guides through testing strategies in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "testing-strategies"
+      ],
+      "slug": "step-by-step-testing-strategies"
+    },
+    {
+      "title": "Step-by-step: environment variables",
+      "description": "Guides through environment variables in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "environment-variables"
+      ],
+      "slug": "step-by-step-environment-variables"
+    },
+    {
+      "title": "Step-by-step: rate limiting",
+      "description": "Guides through rate limiting in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "rate-limiting"
+      ],
+      "slug": "step-by-step-rate-limiting"
+    },
+    {
+      "title": "Step-by-step: observability",
+      "description": "Guides through observability in ordered steps",
+      "category": "coding",
+      "tags": [
+        "tutorial",
+        "coding",
+        "observability"
+      ],
+      "slug": "step-by-step-observability"
     },
     {
       "title": "Checklist for regex",
@@ -826,6 +1046,116 @@
       "slug": "checklist-for-documentation"
     },
     {
+      "title": "Checklist for Kubernetes",
+      "description": "Provides a checklist for thorough Kubernetes",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "kubernetes"
+      ],
+      "slug": "checklist-for-kubernetes"
+    },
+    {
+      "title": "Checklist for WebSockets",
+      "description": "Provides a checklist for thorough WebSockets",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "websockets"
+      ],
+      "slug": "checklist-for-websockets"
+    },
+    {
+      "title": "Checklist for OAuth",
+      "description": "Provides a checklist for thorough OAuth",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "oauth"
+      ],
+      "slug": "checklist-for-oauth"
+    },
+    {
+      "title": "Checklist for linting",
+      "description": "Provides a checklist for thorough linting",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "linting"
+      ],
+      "slug": "checklist-for-linting"
+    },
+    {
+      "title": "Checklist for monorepos",
+      "description": "Provides a checklist for thorough monorepos",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "monorepos"
+      ],
+      "slug": "checklist-for-monorepos"
+    },
+    {
+      "title": "Checklist for microservices",
+      "description": "Provides a checklist for thorough microservices",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "microservices"
+      ],
+      "slug": "checklist-for-microservices"
+    },
+    {
+      "title": "Checklist for testing strategies",
+      "description": "Provides a checklist for thorough testing strategies",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "testing-strategies"
+      ],
+      "slug": "checklist-for-testing-strategies"
+    },
+    {
+      "title": "Checklist for environment variables",
+      "description": "Provides a checklist for thorough environment variables",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "environment-variables"
+      ],
+      "slug": "checklist-for-environment-variables"
+    },
+    {
+      "title": "Checklist for rate limiting",
+      "description": "Provides a checklist for thorough rate limiting",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "rate-limiting"
+      ],
+      "slug": "checklist-for-rate-limiting"
+    },
+    {
+      "title": "Checklist for observability",
+      "description": "Provides a checklist for thorough observability",
+      "category": "coding",
+      "tags": [
+        "checklist",
+        "coding",
+        "observability"
+      ],
+      "slug": "checklist-for-observability"
+    },
+    {
       "title": "Common mistakes in regex",
       "description": "Surfaces common mistakes when doing regex",
       "category": "coding",
@@ -1099,6 +1429,116 @@
         "documentation"
       ],
       "slug": "common-mistakes-in-documentation"
+    },
+    {
+      "title": "Common mistakes in Kubernetes",
+      "description": "Surfaces common mistakes when doing Kubernetes",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "kubernetes"
+      ],
+      "slug": "common-mistakes-in-kubernetes"
+    },
+    {
+      "title": "Common mistakes in WebSockets",
+      "description": "Surfaces common mistakes when doing WebSockets",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "websockets"
+      ],
+      "slug": "common-mistakes-in-websockets"
+    },
+    {
+      "title": "Common mistakes in OAuth",
+      "description": "Surfaces common mistakes when doing OAuth",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "oauth"
+      ],
+      "slug": "common-mistakes-in-oauth"
+    },
+    {
+      "title": "Common mistakes in linting",
+      "description": "Surfaces common mistakes when doing linting",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "linting"
+      ],
+      "slug": "common-mistakes-in-linting"
+    },
+    {
+      "title": "Common mistakes in monorepos",
+      "description": "Surfaces common mistakes when doing monorepos",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "monorepos"
+      ],
+      "slug": "common-mistakes-in-monorepos"
+    },
+    {
+      "title": "Common mistakes in microservices",
+      "description": "Surfaces common mistakes when doing microservices",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "microservices"
+      ],
+      "slug": "common-mistakes-in-microservices"
+    },
+    {
+      "title": "Common mistakes in testing strategies",
+      "description": "Surfaces common mistakes when doing testing strategies",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "testing-strategies"
+      ],
+      "slug": "common-mistakes-in-testing-strategies"
+    },
+    {
+      "title": "Common mistakes in environment variables",
+      "description": "Surfaces common mistakes when doing environment variables",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "environment-variables"
+      ],
+      "slug": "common-mistakes-in-environment-variables"
+    },
+    {
+      "title": "Common mistakes in rate limiting",
+      "description": "Surfaces common mistakes when doing rate limiting",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "rate-limiting"
+      ],
+      "slug": "common-mistakes-in-rate-limiting"
+    },
+    {
+      "title": "Common mistakes in observability",
+      "description": "Surfaces common mistakes when doing observability",
+      "category": "coding",
+      "tags": [
+        "pitfalls",
+        "coding",
+        "observability"
+      ],
+      "slug": "common-mistakes-in-observability"
     },
     {
       "title": "Best practices for regex",
@@ -1376,6 +1816,116 @@
       "slug": "best-practices-for-documentation"
     },
     {
+      "title": "Best practices for Kubernetes",
+      "description": "Outlines best practices for Kubernetes",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "kubernetes"
+      ],
+      "slug": "best-practices-for-kubernetes"
+    },
+    {
+      "title": "Best practices for WebSockets",
+      "description": "Outlines best practices for WebSockets",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "websockets"
+      ],
+      "slug": "best-practices-for-websockets"
+    },
+    {
+      "title": "Best practices for OAuth",
+      "description": "Outlines best practices for OAuth",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "oauth"
+      ],
+      "slug": "best-practices-for-oauth"
+    },
+    {
+      "title": "Best practices for linting",
+      "description": "Outlines best practices for linting",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "linting"
+      ],
+      "slug": "best-practices-for-linting"
+    },
+    {
+      "title": "Best practices for monorepos",
+      "description": "Outlines best practices for monorepos",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "monorepos"
+      ],
+      "slug": "best-practices-for-monorepos"
+    },
+    {
+      "title": "Best practices for microservices",
+      "description": "Outlines best practices for microservices",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "microservices"
+      ],
+      "slug": "best-practices-for-microservices"
+    },
+    {
+      "title": "Best practices for testing strategies",
+      "description": "Outlines best practices for testing strategies",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "testing-strategies"
+      ],
+      "slug": "best-practices-for-testing-strategies"
+    },
+    {
+      "title": "Best practices for environment variables",
+      "description": "Outlines best practices for environment variables",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "environment-variables"
+      ],
+      "slug": "best-practices-for-environment-variables"
+    },
+    {
+      "title": "Best practices for rate limiting",
+      "description": "Outlines best practices for rate limiting",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "rate-limiting"
+      ],
+      "slug": "best-practices-for-rate-limiting"
+    },
+    {
+      "title": "Best practices for observability",
+      "description": "Outlines best practices for observability",
+      "category": "coding",
+      "tags": [
+        "best-practices",
+        "coding",
+        "observability"
+      ],
+      "slug": "best-practices-for-observability"
+    },
+    {
       "title": "Troubleshoot regex",
       "description": "Helps troubleshoot issues with regex",
       "category": "coding",
@@ -1648,6 +2198,116 @@
         "documentation"
       ],
       "slug": "troubleshoot-documentation"
+    },
+    {
+      "title": "Troubleshoot Kubernetes",
+      "description": "Helps troubleshoot issues with Kubernetes",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "kubernetes"
+      ],
+      "slug": "troubleshoot-kubernetes"
+    },
+    {
+      "title": "Troubleshoot WebSockets",
+      "description": "Helps troubleshoot issues with WebSockets",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "websockets"
+      ],
+      "slug": "troubleshoot-websockets"
+    },
+    {
+      "title": "Troubleshoot OAuth",
+      "description": "Helps troubleshoot issues with OAuth",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "oauth"
+      ],
+      "slug": "troubleshoot-oauth"
+    },
+    {
+      "title": "Troubleshoot linting",
+      "description": "Helps troubleshoot issues with linting",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "linting"
+      ],
+      "slug": "troubleshoot-linting"
+    },
+    {
+      "title": "Troubleshoot monorepos",
+      "description": "Helps troubleshoot issues with monorepos",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "monorepos"
+      ],
+      "slug": "troubleshoot-monorepos"
+    },
+    {
+      "title": "Troubleshoot microservices",
+      "description": "Helps troubleshoot issues with microservices",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "microservices"
+      ],
+      "slug": "troubleshoot-microservices"
+    },
+    {
+      "title": "Troubleshoot testing strategies",
+      "description": "Helps troubleshoot issues with testing strategies",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "testing-strategies"
+      ],
+      "slug": "troubleshoot-testing-strategies"
+    },
+    {
+      "title": "Troubleshoot environment variables",
+      "description": "Helps troubleshoot issues with environment variables",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "environment-variables"
+      ],
+      "slug": "troubleshoot-environment-variables"
+    },
+    {
+      "title": "Troubleshoot rate limiting",
+      "description": "Helps troubleshoot issues with rate limiting",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "rate-limiting"
+      ],
+      "slug": "troubleshoot-rate-limiting"
+    },
+    {
+      "title": "Troubleshoot observability",
+      "description": "Helps troubleshoot issues with observability",
+      "category": "coding",
+      "tags": [
+        "debugging",
+        "coding",
+        "observability"
+      ],
+      "slug": "troubleshoot-observability"
     },
     {
       "title": "Review this regex",
@@ -1925,6 +2585,116 @@
       "slug": "review-this-documentation"
     },
     {
+      "title": "Review this Kubernetes",
+      "description": "Reviews and gives feedback on Kubernetes",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "kubernetes"
+      ],
+      "slug": "review-this-kubernetes"
+    },
+    {
+      "title": "Review this WebSockets",
+      "description": "Reviews and gives feedback on WebSockets",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "websockets"
+      ],
+      "slug": "review-this-websockets"
+    },
+    {
+      "title": "Review this OAuth",
+      "description": "Reviews and gives feedback on OAuth",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "oauth"
+      ],
+      "slug": "review-this-oauth"
+    },
+    {
+      "title": "Review this linting",
+      "description": "Reviews and gives feedback on linting",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "linting"
+      ],
+      "slug": "review-this-linting"
+    },
+    {
+      "title": "Review this monorepos",
+      "description": "Reviews and gives feedback on monorepos",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "monorepos"
+      ],
+      "slug": "review-this-monorepos"
+    },
+    {
+      "title": "Review this microservices",
+      "description": "Reviews and gives feedback on microservices",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "microservices"
+      ],
+      "slug": "review-this-microservices"
+    },
+    {
+      "title": "Review this testing strategies",
+      "description": "Reviews and gives feedback on testing strategies",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "testing-strategies"
+      ],
+      "slug": "review-this-testing-strategies"
+    },
+    {
+      "title": "Review this environment variables",
+      "description": "Reviews and gives feedback on environment variables",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "environment-variables"
+      ],
+      "slug": "review-this-environment-variables"
+    },
+    {
+      "title": "Review this rate limiting",
+      "description": "Reviews and gives feedback on rate limiting",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "rate-limiting"
+      ],
+      "slug": "review-this-rate-limiting"
+    },
+    {
+      "title": "Review this observability",
+      "description": "Reviews and gives feedback on observability",
+      "category": "coding",
+      "tags": [
+        "review",
+        "coding",
+        "observability"
+      ],
+      "slug": "review-this-observability"
+    },
+    {
       "title": "Explain decision-making",
       "description": "Explains decision-making in plain language",
       "category": "general",
@@ -2198,6 +2968,116 @@
         "work-life-balance"
       ],
       "slug": "explain-work-life-balance"
+    },
+    {
+      "title": "Explain hiring",
+      "description": "Explains hiring in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "hiring"
+      ],
+      "slug": "explain-hiring"
+    },
+    {
+      "title": "Explain retrospectives",
+      "description": "Explains retrospectives in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "retrospectives"
+      ],
+      "slug": "explain-retrospectives"
+    },
+    {
+      "title": "Explain 1-on-1 meetings",
+      "description": "Explains 1-on-1 meetings in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "1-on-1-meetings"
+      ],
+      "slug": "explain-1-on-1-meetings"
+    },
+    {
+      "title": "Explain OKRs",
+      "description": "Explains OKRs in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "okrs"
+      ],
+      "slug": "explain-okrs"
+    },
+    {
+      "title": "Explain process improvement",
+      "description": "Explains process improvement in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "process-improvement"
+      ],
+      "slug": "explain-process-improvement"
+    },
+    {
+      "title": "Explain vendor evaluation",
+      "description": "Explains vendor evaluation in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "vendor-evaluation"
+      ],
+      "slug": "explain-vendor-evaluation"
+    },
+    {
+      "title": "Explain documentation culture",
+      "description": "Explains documentation culture in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "documentation-culture"
+      ],
+      "slug": "explain-documentation-culture"
+    },
+    {
+      "title": "Explain incident response",
+      "description": "Explains incident response in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "incident-response"
+      ],
+      "slug": "explain-incident-response"
+    },
+    {
+      "title": "Explain knowledge sharing",
+      "description": "Explains knowledge sharing in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "knowledge-sharing"
+      ],
+      "slug": "explain-knowledge-sharing"
+    },
+    {
+      "title": "Explain automation",
+      "description": "Explains automation in plain language",
+      "category": "general",
+      "tags": [
+        "explanation",
+        "general",
+        "automation"
+      ],
+      "slug": "explain-automation"
     },
     {
       "title": "Step-by-step: decision-making",
@@ -2475,6 +3355,116 @@
       "slug": "step-by-step-work-life-balance"
     },
     {
+      "title": "Step-by-step: hiring",
+      "description": "Breaks down hiring into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "hiring"
+      ],
+      "slug": "step-by-step-hiring"
+    },
+    {
+      "title": "Step-by-step: retrospectives",
+      "description": "Breaks down retrospectives into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "retrospectives"
+      ],
+      "slug": "step-by-step-retrospectives"
+    },
+    {
+      "title": "Step-by-step: 1-on-1 meetings",
+      "description": "Breaks down 1-on-1 meetings into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "1-on-1-meetings"
+      ],
+      "slug": "step-by-step-1-on-1-meetings"
+    },
+    {
+      "title": "Step-by-step: OKRs",
+      "description": "Breaks down OKRs into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "okrs"
+      ],
+      "slug": "step-by-step-okrs"
+    },
+    {
+      "title": "Step-by-step: process improvement",
+      "description": "Breaks down process improvement into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "process-improvement"
+      ],
+      "slug": "step-by-step-process-improvement"
+    },
+    {
+      "title": "Step-by-step: vendor evaluation",
+      "description": "Breaks down vendor evaluation into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "vendor-evaluation"
+      ],
+      "slug": "step-by-step-vendor-evaluation"
+    },
+    {
+      "title": "Step-by-step: documentation culture",
+      "description": "Breaks down documentation culture into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "documentation-culture"
+      ],
+      "slug": "step-by-step-documentation-culture"
+    },
+    {
+      "title": "Step-by-step: incident response",
+      "description": "Breaks down incident response into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "incident-response"
+      ],
+      "slug": "step-by-step-incident-response"
+    },
+    {
+      "title": "Step-by-step: knowledge sharing",
+      "description": "Breaks down knowledge sharing into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "knowledge-sharing"
+      ],
+      "slug": "step-by-step-knowledge-sharing"
+    },
+    {
+      "title": "Step-by-step: automation",
+      "description": "Breaks down automation into clear steps",
+      "category": "general",
+      "tags": [
+        "tutorial",
+        "general",
+        "automation"
+      ],
+      "slug": "step-by-step-automation"
+    },
+    {
       "title": "Checklist for decision-making",
       "description": "Checklist to ensure thorough decision-making",
       "category": "general",
@@ -2748,6 +3738,116 @@
         "work-life-balance"
       ],
       "slug": "checklist-for-work-life-balance"
+    },
+    {
+      "title": "Checklist for hiring",
+      "description": "Checklist to ensure thorough hiring",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "hiring"
+      ],
+      "slug": "checklist-for-hiring"
+    },
+    {
+      "title": "Checklist for retrospectives",
+      "description": "Checklist to ensure thorough retrospectives",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "retrospectives"
+      ],
+      "slug": "checklist-for-retrospectives"
+    },
+    {
+      "title": "Checklist for 1-on-1 meetings",
+      "description": "Checklist to ensure thorough 1-on-1 meetings",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "1-on-1-meetings"
+      ],
+      "slug": "checklist-for-1-on-1-meetings"
+    },
+    {
+      "title": "Checklist for OKRs",
+      "description": "Checklist to ensure thorough OKRs",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "okrs"
+      ],
+      "slug": "checklist-for-okrs"
+    },
+    {
+      "title": "Checklist for process improvement",
+      "description": "Checklist to ensure thorough process improvement",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "process-improvement"
+      ],
+      "slug": "checklist-for-process-improvement"
+    },
+    {
+      "title": "Checklist for vendor evaluation",
+      "description": "Checklist to ensure thorough vendor evaluation",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "vendor-evaluation"
+      ],
+      "slug": "checklist-for-vendor-evaluation"
+    },
+    {
+      "title": "Checklist for documentation culture",
+      "description": "Checklist to ensure thorough documentation culture",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "documentation-culture"
+      ],
+      "slug": "checklist-for-documentation-culture"
+    },
+    {
+      "title": "Checklist for incident response",
+      "description": "Checklist to ensure thorough incident response",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "incident-response"
+      ],
+      "slug": "checklist-for-incident-response"
+    },
+    {
+      "title": "Checklist for knowledge sharing",
+      "description": "Checklist to ensure thorough knowledge sharing",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "knowledge-sharing"
+      ],
+      "slug": "checklist-for-knowledge-sharing"
+    },
+    {
+      "title": "Checklist for automation",
+      "description": "Checklist to ensure thorough automation",
+      "category": "general",
+      "tags": [
+        "checklist",
+        "general",
+        "automation"
+      ],
+      "slug": "checklist-for-automation"
     },
     {
       "title": "Pros and cons of decision-making",
@@ -3025,6 +4125,116 @@
       "slug": "pros-and-cons-of-work-life-balance"
     },
     {
+      "title": "Pros and cons of hiring",
+      "description": "Lists pros and cons of hiring",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "hiring"
+      ],
+      "slug": "pros-and-cons-of-hiring"
+    },
+    {
+      "title": "Pros and cons of retrospectives",
+      "description": "Lists pros and cons of retrospectives",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "retrospectives"
+      ],
+      "slug": "pros-and-cons-of-retrospectives"
+    },
+    {
+      "title": "Pros and cons of 1-on-1 meetings",
+      "description": "Lists pros and cons of 1-on-1 meetings",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "1-on-1-meetings"
+      ],
+      "slug": "pros-and-cons-of-1-on-1-meetings"
+    },
+    {
+      "title": "Pros and cons of OKRs",
+      "description": "Lists pros and cons of OKRs",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "okrs"
+      ],
+      "slug": "pros-and-cons-of-okrs"
+    },
+    {
+      "title": "Pros and cons of process improvement",
+      "description": "Lists pros and cons of process improvement",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "process-improvement"
+      ],
+      "slug": "pros-and-cons-of-process-improvement"
+    },
+    {
+      "title": "Pros and cons of vendor evaluation",
+      "description": "Lists pros and cons of vendor evaluation",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "vendor-evaluation"
+      ],
+      "slug": "pros-and-cons-of-vendor-evaluation"
+    },
+    {
+      "title": "Pros and cons of documentation culture",
+      "description": "Lists pros and cons of documentation culture",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "documentation-culture"
+      ],
+      "slug": "pros-and-cons-of-documentation-culture"
+    },
+    {
+      "title": "Pros and cons of incident response",
+      "description": "Lists pros and cons of incident response",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "incident-response"
+      ],
+      "slug": "pros-and-cons-of-incident-response"
+    },
+    {
+      "title": "Pros and cons of knowledge sharing",
+      "description": "Lists pros and cons of knowledge sharing",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "knowledge-sharing"
+      ],
+      "slug": "pros-and-cons-of-knowledge-sharing"
+    },
+    {
+      "title": "Pros and cons of automation",
+      "description": "Lists pros and cons of automation",
+      "category": "general",
+      "tags": [
+        "comparison",
+        "general",
+        "automation"
+      ],
+      "slug": "pros-and-cons-of-automation"
+    },
+    {
       "title": "Quick guide to decision-making",
       "description": "Short, actionable guide to decision-making",
       "category": "general",
@@ -3298,6 +4508,116 @@
         "work-life-balance"
       ],
       "slug": "quick-guide-to-work-life-balance"
+    },
+    {
+      "title": "Quick guide to hiring",
+      "description": "Short, actionable guide to hiring",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "hiring"
+      ],
+      "slug": "quick-guide-to-hiring"
+    },
+    {
+      "title": "Quick guide to retrospectives",
+      "description": "Short, actionable guide to retrospectives",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "retrospectives"
+      ],
+      "slug": "quick-guide-to-retrospectives"
+    },
+    {
+      "title": "Quick guide to 1-on-1 meetings",
+      "description": "Short, actionable guide to 1-on-1 meetings",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "1-on-1-meetings"
+      ],
+      "slug": "quick-guide-to-1-on-1-meetings"
+    },
+    {
+      "title": "Quick guide to OKRs",
+      "description": "Short, actionable guide to OKRs",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "okrs"
+      ],
+      "slug": "quick-guide-to-okrs"
+    },
+    {
+      "title": "Quick guide to process improvement",
+      "description": "Short, actionable guide to process improvement",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "process-improvement"
+      ],
+      "slug": "quick-guide-to-process-improvement"
+    },
+    {
+      "title": "Quick guide to vendor evaluation",
+      "description": "Short, actionable guide to vendor evaluation",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "vendor-evaluation"
+      ],
+      "slug": "quick-guide-to-vendor-evaluation"
+    },
+    {
+      "title": "Quick guide to documentation culture",
+      "description": "Short, actionable guide to documentation culture",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "documentation-culture"
+      ],
+      "slug": "quick-guide-to-documentation-culture"
+    },
+    {
+      "title": "Quick guide to incident response",
+      "description": "Short, actionable guide to incident response",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "incident-response"
+      ],
+      "slug": "quick-guide-to-incident-response"
+    },
+    {
+      "title": "Quick guide to knowledge sharing",
+      "description": "Short, actionable guide to knowledge sharing",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "knowledge-sharing"
+      ],
+      "slug": "quick-guide-to-knowledge-sharing"
+    },
+    {
+      "title": "Quick guide to automation",
+      "description": "Short, actionable guide to automation",
+      "category": "general",
+      "tags": [
+        "guide",
+        "general",
+        "automation"
+      ],
+      "slug": "quick-guide-to-automation"
     },
     {
       "title": "Common mistakes in decision-making",
@@ -3575,6 +4895,116 @@
       "slug": "common-mistakes-in-work-life-balance"
     },
     {
+      "title": "Common mistakes in hiring",
+      "description": "Common mistakes to avoid when hiring",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "hiring"
+      ],
+      "slug": "common-mistakes-in-hiring"
+    },
+    {
+      "title": "Common mistakes in retrospectives",
+      "description": "Common mistakes to avoid when retrospectives",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "retrospectives"
+      ],
+      "slug": "common-mistakes-in-retrospectives"
+    },
+    {
+      "title": "Common mistakes in 1-on-1 meetings",
+      "description": "Common mistakes to avoid when 1-on-1 meetings",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "1-on-1-meetings"
+      ],
+      "slug": "common-mistakes-in-1-on-1-meetings"
+    },
+    {
+      "title": "Common mistakes in OKRs",
+      "description": "Common mistakes to avoid when OKRs",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "okrs"
+      ],
+      "slug": "common-mistakes-in-okrs"
+    },
+    {
+      "title": "Common mistakes in process improvement",
+      "description": "Common mistakes to avoid when process improvement",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "process-improvement"
+      ],
+      "slug": "common-mistakes-in-process-improvement"
+    },
+    {
+      "title": "Common mistakes in vendor evaluation",
+      "description": "Common mistakes to avoid when vendor evaluation",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "vendor-evaluation"
+      ],
+      "slug": "common-mistakes-in-vendor-evaluation"
+    },
+    {
+      "title": "Common mistakes in documentation culture",
+      "description": "Common mistakes to avoid when documentation culture",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "documentation-culture"
+      ],
+      "slug": "common-mistakes-in-documentation-culture"
+    },
+    {
+      "title": "Common mistakes in incident response",
+      "description": "Common mistakes to avoid when incident response",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "incident-response"
+      ],
+      "slug": "common-mistakes-in-incident-response"
+    },
+    {
+      "title": "Common mistakes in knowledge sharing",
+      "description": "Common mistakes to avoid when knowledge sharing",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "knowledge-sharing"
+      ],
+      "slug": "common-mistakes-in-knowledge-sharing"
+    },
+    {
+      "title": "Common mistakes in automation",
+      "description": "Common mistakes to avoid when automation",
+      "category": "general",
+      "tags": [
+        "pitfalls",
+        "general",
+        "automation"
+      ],
+      "slug": "common-mistakes-in-automation"
+    },
+    {
       "title": "Summarize this meeting notes",
       "description": "Summarizes meeting notes concisely",
       "category": "writing",
@@ -3850,6 +5280,116 @@
       "slug": "summarize-this-slide-decks"
     },
     {
+      "title": "Summarize this release notes",
+      "description": "Summarizes release notes concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "release-notes"
+      ],
+      "slug": "summarize-this-release-notes"
+    },
+    {
+      "title": "Summarize this changelogs",
+      "description": "Summarizes changelogs concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "changelogs"
+      ],
+      "slug": "summarize-this-changelogs"
+    },
+    {
+      "title": "Summarize this onboarding docs",
+      "description": "Summarizes onboarding docs concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "onboarding-docs"
+      ],
+      "slug": "summarize-this-onboarding-docs"
+    },
+    {
+      "title": "Summarize this API docs",
+      "description": "Summarizes API docs concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "api-docs"
+      ],
+      "slug": "summarize-this-api-docs"
+    },
+    {
+      "title": "Summarize this style guides",
+      "description": "Summarizes style guides concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "style-guides"
+      ],
+      "slug": "summarize-this-style-guides"
+    },
+    {
+      "title": "Summarize this pitch decks",
+      "description": "Summarizes pitch decks concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "pitch-decks"
+      ],
+      "slug": "summarize-this-pitch-decks"
+    },
+    {
+      "title": "Summarize this executive summaries",
+      "description": "Summarizes executive summaries concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "executive-summaries"
+      ],
+      "slug": "summarize-this-executive-summaries"
+    },
+    {
+      "title": "Summarize this post-mortems",
+      "description": "Summarizes post-mortems concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "post-mortems"
+      ],
+      "slug": "summarize-this-post-mortems"
+    },
+    {
+      "title": "Summarize this RFCs",
+      "description": "Summarizes RFCs concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "rfcs"
+      ],
+      "slug": "summarize-this-rfcs"
+    },
+    {
+      "title": "Summarize this runbooks",
+      "description": "Summarizes runbooks concisely",
+      "category": "writing",
+      "tags": [
+        "summary",
+        "writing",
+        "runbooks"
+      ],
+      "slug": "summarize-this-runbooks"
+    },
+    {
       "title": "Rewrite this meeting notes for clarity",
       "description": "Rewrites meeting notes for clarity and impact",
       "category": "writing",
@@ -3958,1546 +5498,6 @@
         "technical-specs"
       ],
       "slug": "rewrite-this-technical-specs-for-clarity"
-    },
-    {
-      "title": "Rewrite this FAQs for clarity",
-      "description": "Rewrites FAQs for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "faqs"
-      ],
-      "slug": "rewrite-this-faqs-for-clarity"
-    },
-    {
-      "title": "Rewrite this how-to guides for clarity",
-      "description": "Rewrites how-to guides for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "how-to-guides"
-      ],
-      "slug": "rewrite-this-how-to-guides-for-clarity"
-    },
-    {
-      "title": "Rewrite this case studies for clarity",
-      "description": "Rewrites case studies for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "case-studies"
-      ],
-      "slug": "rewrite-this-case-studies-for-clarity"
-    },
-    {
-      "title": "Rewrite this whitepapers for clarity",
-      "description": "Rewrites whitepapers for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "whitepapers"
-      ],
-      "slug": "rewrite-this-whitepapers-for-clarity"
-    },
-    {
-      "title": "Rewrite this newsletters for clarity",
-      "description": "Rewrites newsletters for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "newsletters"
-      ],
-      "slug": "rewrite-this-newsletters-for-clarity"
-    },
-    {
-      "title": "Rewrite this announcements for clarity",
-      "description": "Rewrites announcements for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "announcements"
-      ],
-      "slug": "rewrite-this-announcements-for-clarity"
-    },
-    {
-      "title": "Rewrite this reviews for clarity",
-      "description": "Rewrites reviews for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "reviews"
-      ],
-      "slug": "rewrite-this-reviews-for-clarity"
-    },
-    {
-      "title": "Rewrite this feedback for clarity",
-      "description": "Rewrites feedback for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "feedback"
-      ],
-      "slug": "rewrite-this-feedback-for-clarity"
-    },
-    {
-      "title": "Rewrite this instructions for clarity",
-      "description": "Rewrites instructions for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "instructions"
-      ],
-      "slug": "rewrite-this-instructions-for-clarity"
-    },
-    {
-      "title": "Rewrite this summaries for clarity",
-      "description": "Rewrites summaries for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "summaries"
-      ],
-      "slug": "rewrite-this-summaries-for-clarity"
-    },
-    {
-      "title": "Rewrite this abstracts for clarity",
-      "description": "Rewrites abstracts for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "abstracts"
-      ],
-      "slug": "rewrite-this-abstracts-for-clarity"
-    },
-    {
-      "title": "Rewrite this bios for clarity",
-      "description": "Rewrites bios for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "bios"
-      ],
-      "slug": "rewrite-this-bios-for-clarity"
-    },
-    {
-      "title": "Rewrite this job descriptions for clarity",
-      "description": "Rewrites job descriptions for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "job-descriptions"
-      ],
-      "slug": "rewrite-this-job-descriptions-for-clarity"
-    },
-    {
-      "title": "Rewrite this grant applications for clarity",
-      "description": "Rewrites grant applications for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "grant-applications"
-      ],
-      "slug": "rewrite-this-grant-applications-for-clarity"
-    },
-    {
-      "title": "Rewrite this slide decks for clarity",
-      "description": "Rewrites slide decks for clarity and impact",
-      "category": "writing",
-      "tags": [
-        "clarity",
-        "writing",
-        "slide-decks"
-      ],
-      "slug": "rewrite-this-slide-decks-for-clarity"
-    },
-    {
-      "title": "Outline for meeting notes",
-      "description": "Creates a clear outline for meeting notes",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "meeting-notes"
-      ],
-      "slug": "outline-for-meeting-notes"
-    },
-    {
-      "title": "Outline for emails",
-      "description": "Creates a clear outline for emails",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "emails"
-      ],
-      "slug": "outline-for-emails"
-    },
-    {
-      "title": "Outline for reports",
-      "description": "Creates a clear outline for reports",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "reports"
-      ],
-      "slug": "outline-for-reports"
-    },
-    {
-      "title": "Outline for proposals",
-      "description": "Creates a clear outline for proposals",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "proposals"
-      ],
-      "slug": "outline-for-proposals"
-    },
-    {
-      "title": "Outline for documentation",
-      "description": "Creates a clear outline for documentation",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "documentation"
-      ],
-      "slug": "outline-for-documentation"
-    },
-    {
-      "title": "Outline for blog posts",
-      "description": "Creates a clear outline for blog posts",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "blog-posts"
-      ],
-      "slug": "outline-for-blog-posts"
-    },
-    {
-      "title": "Outline for social media",
-      "description": "Creates a clear outline for social media",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "social-media"
-      ],
-      "slug": "outline-for-social-media"
-    },
-    {
-      "title": "Outline for press releases",
-      "description": "Creates a clear outline for press releases",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "press-releases"
-      ],
-      "slug": "outline-for-press-releases"
-    },
-    {
-      "title": "Outline for user stories",
-      "description": "Creates a clear outline for user stories",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "user-stories"
-      ],
-      "slug": "outline-for-user-stories"
-    },
-    {
-      "title": "Outline for technical specs",
-      "description": "Creates a clear outline for technical specs",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "technical-specs"
-      ],
-      "slug": "outline-for-technical-specs"
-    },
-    {
-      "title": "Outline for FAQs",
-      "description": "Creates a clear outline for FAQs",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "faqs"
-      ],
-      "slug": "outline-for-faqs"
-    },
-    {
-      "title": "Outline for how-to guides",
-      "description": "Creates a clear outline for how-to guides",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "how-to-guides"
-      ],
-      "slug": "outline-for-how-to-guides"
-    },
-    {
-      "title": "Outline for case studies",
-      "description": "Creates a clear outline for case studies",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "case-studies"
-      ],
-      "slug": "outline-for-case-studies"
-    },
-    {
-      "title": "Outline for whitepapers",
-      "description": "Creates a clear outline for whitepapers",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "whitepapers"
-      ],
-      "slug": "outline-for-whitepapers"
-    },
-    {
-      "title": "Outline for newsletters",
-      "description": "Creates a clear outline for newsletters",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "newsletters"
-      ],
-      "slug": "outline-for-newsletters"
-    },
-    {
-      "title": "Outline for announcements",
-      "description": "Creates a clear outline for announcements",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "announcements"
-      ],
-      "slug": "outline-for-announcements"
-    },
-    {
-      "title": "Outline for reviews",
-      "description": "Creates a clear outline for reviews",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "reviews"
-      ],
-      "slug": "outline-for-reviews"
-    },
-    {
-      "title": "Outline for feedback",
-      "description": "Creates a clear outline for feedback",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "feedback"
-      ],
-      "slug": "outline-for-feedback"
-    },
-    {
-      "title": "Outline for instructions",
-      "description": "Creates a clear outline for instructions",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "instructions"
-      ],
-      "slug": "outline-for-instructions"
-    },
-    {
-      "title": "Outline for summaries",
-      "description": "Creates a clear outline for summaries",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "summaries"
-      ],
-      "slug": "outline-for-summaries"
-    },
-    {
-      "title": "Outline for abstracts",
-      "description": "Creates a clear outline for abstracts",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "abstracts"
-      ],
-      "slug": "outline-for-abstracts"
-    },
-    {
-      "title": "Outline for bios",
-      "description": "Creates a clear outline for bios",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "bios"
-      ],
-      "slug": "outline-for-bios"
-    },
-    {
-      "title": "Outline for job descriptions",
-      "description": "Creates a clear outline for job descriptions",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "job-descriptions"
-      ],
-      "slug": "outline-for-job-descriptions"
-    },
-    {
-      "title": "Outline for grant applications",
-      "description": "Creates a clear outline for grant applications",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "grant-applications"
-      ],
-      "slug": "outline-for-grant-applications"
-    },
-    {
-      "title": "Outline for slide decks",
-      "description": "Creates a clear outline for slide decks",
-      "category": "writing",
-      "tags": [
-        "outline",
-        "writing",
-        "slide-decks"
-      ],
-      "slug": "outline-for-slide-decks"
-    },
-    {
-      "title": "Tone shift: make this meeting notes",
-      "description": "Adjusts text to sound more meeting notes",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "meeting-notes"
-      ],
-      "slug": "tone-shift-make-this-meeting-notes"
-    },
-    {
-      "title": "Tone shift: make this emails",
-      "description": "Adjusts text to sound more emails",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "emails"
-      ],
-      "slug": "tone-shift-make-this-emails"
-    },
-    {
-      "title": "Tone shift: make this reports",
-      "description": "Adjusts text to sound more reports",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "reports"
-      ],
-      "slug": "tone-shift-make-this-reports"
-    },
-    {
-      "title": "Tone shift: make this proposals",
-      "description": "Adjusts text to sound more proposals",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "proposals"
-      ],
-      "slug": "tone-shift-make-this-proposals"
-    },
-    {
-      "title": "Tone shift: make this documentation",
-      "description": "Adjusts text to sound more documentation",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "documentation"
-      ],
-      "slug": "tone-shift-make-this-documentation"
-    },
-    {
-      "title": "Tone shift: make this blog posts",
-      "description": "Adjusts text to sound more blog posts",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "blog-posts"
-      ],
-      "slug": "tone-shift-make-this-blog-posts"
-    },
-    {
-      "title": "Tone shift: make this social media",
-      "description": "Adjusts text to sound more social media",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "social-media"
-      ],
-      "slug": "tone-shift-make-this-social-media"
-    },
-    {
-      "title": "Tone shift: make this press releases",
-      "description": "Adjusts text to sound more press releases",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "press-releases"
-      ],
-      "slug": "tone-shift-make-this-press-releases"
-    },
-    {
-      "title": "Tone shift: make this user stories",
-      "description": "Adjusts text to sound more user stories",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "user-stories"
-      ],
-      "slug": "tone-shift-make-this-user-stories"
-    },
-    {
-      "title": "Tone shift: make this technical specs",
-      "description": "Adjusts text to sound more technical specs",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "technical-specs"
-      ],
-      "slug": "tone-shift-make-this-technical-specs"
-    },
-    {
-      "title": "Tone shift: make this FAQs",
-      "description": "Adjusts text to sound more FAQs",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "faqs"
-      ],
-      "slug": "tone-shift-make-this-faqs"
-    },
-    {
-      "title": "Tone shift: make this how-to guides",
-      "description": "Adjusts text to sound more how-to guides",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "how-to-guides"
-      ],
-      "slug": "tone-shift-make-this-how-to-guides"
-    },
-    {
-      "title": "Tone shift: make this case studies",
-      "description": "Adjusts text to sound more case studies",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "case-studies"
-      ],
-      "slug": "tone-shift-make-this-case-studies"
-    },
-    {
-      "title": "Tone shift: make this whitepapers",
-      "description": "Adjusts text to sound more whitepapers",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "whitepapers"
-      ],
-      "slug": "tone-shift-make-this-whitepapers"
-    },
-    {
-      "title": "Tone shift: make this newsletters",
-      "description": "Adjusts text to sound more newsletters",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "newsletters"
-      ],
-      "slug": "tone-shift-make-this-newsletters"
-    },
-    {
-      "title": "Tone shift: make this announcements",
-      "description": "Adjusts text to sound more announcements",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "announcements"
-      ],
-      "slug": "tone-shift-make-this-announcements"
-    },
-    {
-      "title": "Tone shift: make this reviews",
-      "description": "Adjusts text to sound more reviews",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "reviews"
-      ],
-      "slug": "tone-shift-make-this-reviews"
-    },
-    {
-      "title": "Tone shift: make this feedback",
-      "description": "Adjusts text to sound more feedback",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "feedback"
-      ],
-      "slug": "tone-shift-make-this-feedback"
-    },
-    {
-      "title": "Tone shift: make this instructions",
-      "description": "Adjusts text to sound more instructions",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "instructions"
-      ],
-      "slug": "tone-shift-make-this-instructions"
-    },
-    {
-      "title": "Tone shift: make this summaries",
-      "description": "Adjusts text to sound more summaries",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "summaries"
-      ],
-      "slug": "tone-shift-make-this-summaries"
-    },
-    {
-      "title": "Tone shift: make this abstracts",
-      "description": "Adjusts text to sound more abstracts",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "abstracts"
-      ],
-      "slug": "tone-shift-make-this-abstracts"
-    },
-    {
-      "title": "Tone shift: make this bios",
-      "description": "Adjusts text to sound more bios",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "bios"
-      ],
-      "slug": "tone-shift-make-this-bios"
-    },
-    {
-      "title": "Tone shift: make this job descriptions",
-      "description": "Adjusts text to sound more job descriptions",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "job-descriptions"
-      ],
-      "slug": "tone-shift-make-this-job-descriptions"
-    },
-    {
-      "title": "Tone shift: make this grant applications",
-      "description": "Adjusts text to sound more grant applications",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "grant-applications"
-      ],
-      "slug": "tone-shift-make-this-grant-applications"
-    },
-    {
-      "title": "Tone shift: make this slide decks",
-      "description": "Adjusts text to sound more slide decks",
-      "category": "writing",
-      "tags": [
-        "tone",
-        "writing",
-        "slide-decks"
-      ],
-      "slug": "tone-shift-make-this-slide-decks"
-    },
-    {
-      "title": "Expand this meeting notes",
-      "description": "Expands meeting notes with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "meeting-notes"
-      ],
-      "slug": "expand-this-meeting-notes"
-    },
-    {
-      "title": "Expand this emails",
-      "description": "Expands emails with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "emails"
-      ],
-      "slug": "expand-this-emails"
-    },
-    {
-      "title": "Expand this reports",
-      "description": "Expands reports with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "reports"
-      ],
-      "slug": "expand-this-reports"
-    },
-    {
-      "title": "Expand this proposals",
-      "description": "Expands proposals with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "proposals"
-      ],
-      "slug": "expand-this-proposals"
-    },
-    {
-      "title": "Expand this documentation",
-      "description": "Expands documentation with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "documentation"
-      ],
-      "slug": "expand-this-documentation"
-    },
-    {
-      "title": "Expand this blog posts",
-      "description": "Expands blog posts with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "blog-posts"
-      ],
-      "slug": "expand-this-blog-posts"
-    },
-    {
-      "title": "Expand this social media",
-      "description": "Expands social media with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "social-media"
-      ],
-      "slug": "expand-this-social-media"
-    },
-    {
-      "title": "Expand this press releases",
-      "description": "Expands press releases with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "press-releases"
-      ],
-      "slug": "expand-this-press-releases"
-    },
-    {
-      "title": "Expand this user stories",
-      "description": "Expands user stories with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "user-stories"
-      ],
-      "slug": "expand-this-user-stories"
-    },
-    {
-      "title": "Expand this technical specs",
-      "description": "Expands technical specs with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "technical-specs"
-      ],
-      "slug": "expand-this-technical-specs"
-    },
-    {
-      "title": "Expand this FAQs",
-      "description": "Expands FAQs with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "faqs"
-      ],
-      "slug": "expand-this-faqs"
-    },
-    {
-      "title": "Expand this how-to guides",
-      "description": "Expands how-to guides with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "how-to-guides"
-      ],
-      "slug": "expand-this-how-to-guides"
-    },
-    {
-      "title": "Expand this case studies",
-      "description": "Expands case studies with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "case-studies"
-      ],
-      "slug": "expand-this-case-studies"
-    },
-    {
-      "title": "Expand this whitepapers",
-      "description": "Expands whitepapers with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "whitepapers"
-      ],
-      "slug": "expand-this-whitepapers"
-    },
-    {
-      "title": "Expand this newsletters",
-      "description": "Expands newsletters with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "newsletters"
-      ],
-      "slug": "expand-this-newsletters"
-    },
-    {
-      "title": "Expand this announcements",
-      "description": "Expands announcements with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "announcements"
-      ],
-      "slug": "expand-this-announcements"
-    },
-    {
-      "title": "Expand this reviews",
-      "description": "Expands reviews with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "reviews"
-      ],
-      "slug": "expand-this-reviews"
-    },
-    {
-      "title": "Expand this feedback",
-      "description": "Expands feedback with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "feedback"
-      ],
-      "slug": "expand-this-feedback"
-    },
-    {
-      "title": "Expand this instructions",
-      "description": "Expands instructions with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "instructions"
-      ],
-      "slug": "expand-this-instructions"
-    },
-    {
-      "title": "Expand this summaries",
-      "description": "Expands summaries with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "summaries"
-      ],
-      "slug": "expand-this-summaries"
-    },
-    {
-      "title": "Expand this abstracts",
-      "description": "Expands abstracts with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "abstracts"
-      ],
-      "slug": "expand-this-abstracts"
-    },
-    {
-      "title": "Expand this bios",
-      "description": "Expands bios with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "bios"
-      ],
-      "slug": "expand-this-bios"
-    },
-    {
-      "title": "Expand this job descriptions",
-      "description": "Expands job descriptions with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "job-descriptions"
-      ],
-      "slug": "expand-this-job-descriptions"
-    },
-    {
-      "title": "Expand this grant applications",
-      "description": "Expands grant applications with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "grant-applications"
-      ],
-      "slug": "expand-this-grant-applications"
-    },
-    {
-      "title": "Expand this slide decks",
-      "description": "Expands slide decks with detail and examples",
-      "category": "writing",
-      "tags": [
-        "expansion",
-        "writing",
-        "slide-decks"
-      ],
-      "slug": "expand-this-slide-decks"
-    },
-    {
-      "title": "Research summary: market analysis",
-      "description": "Summarizes key findings on market analysis",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "market-analysis"
-      ],
-      "slug": "research-summary-market-analysis"
-    },
-    {
-      "title": "Research summary: competitor analysis",
-      "description": "Summarizes key findings on competitor analysis",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "competitor-analysis"
-      ],
-      "slug": "research-summary-competitor-analysis"
-    },
-    {
-      "title": "Research summary: user research",
-      "description": "Summarizes key findings on user research",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "user-research"
-      ],
-      "slug": "research-summary-user-research"
-    },
-    {
-      "title": "Research summary: trends",
-      "description": "Summarizes key findings on trends",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "trends"
-      ],
-      "slug": "research-summary-trends"
-    },
-    {
-      "title": "Research summary: benchmarks",
-      "description": "Summarizes key findings on benchmarks",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "benchmarks"
-      ],
-      "slug": "research-summary-benchmarks"
-    },
-    {
-      "title": "Research summary: surveys",
-      "description": "Summarizes key findings on surveys",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "surveys"
-      ],
-      "slug": "research-summary-surveys"
-    },
-    {
-      "title": "Research summary: interviews",
-      "description": "Summarizes key findings on interviews",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "interviews"
-      ],
-      "slug": "research-summary-interviews"
-    },
-    {
-      "title": "Research summary: data analysis",
-      "description": "Summarizes key findings on data analysis",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "data-analysis"
-      ],
-      "slug": "research-summary-data-analysis"
-    },
-    {
-      "title": "Research summary: literature review",
-      "description": "Summarizes key findings on literature review",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "literature-review"
-      ],
-      "slug": "research-summary-literature-review"
-    },
-    {
-      "title": "Research summary: feasibility",
-      "description": "Summarizes key findings on feasibility",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "feasibility"
-      ],
-      "slug": "research-summary-feasibility"
-    },
-    {
-      "title": "Research summary: ROI",
-      "description": "Summarizes key findings on ROI",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "roi"
-      ],
-      "slug": "research-summary-roi"
-    },
-    {
-      "title": "Research summary: risk factors",
-      "description": "Summarizes key findings on risk factors",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "risk-factors"
-      ],
-      "slug": "research-summary-risk-factors"
-    },
-    {
-      "title": "Research summary: best practices",
-      "description": "Summarizes key findings on best practices",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "best-practices"
-      ],
-      "slug": "research-summary-best-practices"
-    },
-    {
-      "title": "Research summary: case studies",
-      "description": "Summarizes key findings on case studies",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "case-studies"
-      ],
-      "slug": "research-summary-case-studies"
-    },
-    {
-      "title": "Research summary: frameworks",
-      "description": "Summarizes key findings on frameworks",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "frameworks"
-      ],
-      "slug": "research-summary-frameworks"
-    },
-    {
-      "title": "Research summary: methodologies",
-      "description": "Summarizes key findings on methodologies",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "methodologies"
-      ],
-      "slug": "research-summary-methodologies"
-    },
-    {
-      "title": "Research summary: tools comparison",
-      "description": "Summarizes key findings on tools comparison",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "tools-comparison"
-      ],
-      "slug": "research-summary-tools-comparison"
-    },
-    {
-      "title": "Research summary: standards",
-      "description": "Summarizes key findings on standards",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "standards"
-      ],
-      "slug": "research-summary-standards"
-    },
-    {
-      "title": "Research summary: regulations",
-      "description": "Summarizes key findings on regulations",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "regulations"
-      ],
-      "slug": "research-summary-regulations"
-    },
-    {
-      "title": "Research summary: ethics",
-      "description": "Summarizes key findings on ethics",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "ethics"
-      ],
-      "slug": "research-summary-ethics"
-    },
-    {
-      "title": "Research summary: bias",
-      "description": "Summarizes key findings on bias",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "bias"
-      ],
-      "slug": "research-summary-bias"
-    },
-    {
-      "title": "Research summary: sources",
-      "description": "Summarizes key findings on sources",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "sources"
-      ],
-      "slug": "research-summary-sources"
-    },
-    {
-      "title": "Research summary: synthesis",
-      "description": "Summarizes key findings on synthesis",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "synthesis"
-      ],
-      "slug": "research-summary-synthesis"
-    },
-    {
-      "title": "Research summary: recommendations",
-      "description": "Summarizes key findings on recommendations",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "recommendations"
-      ],
-      "slug": "research-summary-recommendations"
-    },
-    {
-      "title": "Research summary: gap analysis",
-      "description": "Summarizes key findings on gap analysis",
-      "category": "research",
-      "tags": [
-        "research",
-        "summary",
-        "gap-analysis"
-      ],
-      "slug": "research-summary-gap-analysis"
-    },
-    {
-      "title": "Compare options for market analysis",
-      "description": "Compares options and tradeoffs for market analysis",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "market-analysis"
-      ],
-      "slug": "compare-options-for-market-analysis"
-    },
-    {
-      "title": "Compare options for competitor analysis",
-      "description": "Compares options and tradeoffs for competitor analysis",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "competitor-analysis"
-      ],
-      "slug": "compare-options-for-competitor-analysis"
-    },
-    {
-      "title": "Compare options for user research",
-      "description": "Compares options and tradeoffs for user research",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "user-research"
-      ],
-      "slug": "compare-options-for-user-research"
-    },
-    {
-      "title": "Compare options for trends",
-      "description": "Compares options and tradeoffs for trends",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "trends"
-      ],
-      "slug": "compare-options-for-trends"
-    },
-    {
-      "title": "Compare options for benchmarks",
-      "description": "Compares options and tradeoffs for benchmarks",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "benchmarks"
-      ],
-      "slug": "compare-options-for-benchmarks"
-    },
-    {
-      "title": "Compare options for surveys",
-      "description": "Compares options and tradeoffs for surveys",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "surveys"
-      ],
-      "slug": "compare-options-for-surveys"
-    },
-    {
-      "title": "Compare options for interviews",
-      "description": "Compares options and tradeoffs for interviews",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "interviews"
-      ],
-      "slug": "compare-options-for-interviews"
-    },
-    {
-      "title": "Compare options for data analysis",
-      "description": "Compares options and tradeoffs for data analysis",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "data-analysis"
-      ],
-      "slug": "compare-options-for-data-analysis"
-    },
-    {
-      "title": "Compare options for literature review",
-      "description": "Compares options and tradeoffs for literature review",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "literature-review"
-      ],
-      "slug": "compare-options-for-literature-review"
-    },
-    {
-      "title": "Compare options for feasibility",
-      "description": "Compares options and tradeoffs for feasibility",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "feasibility"
-      ],
-      "slug": "compare-options-for-feasibility"
-    },
-    {
-      "title": "Compare options for ROI",
-      "description": "Compares options and tradeoffs for ROI",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "roi"
-      ],
-      "slug": "compare-options-for-roi"
-    },
-    {
-      "title": "Compare options for risk factors",
-      "description": "Compares options and tradeoffs for risk factors",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "risk-factors"
-      ],
-      "slug": "compare-options-for-risk-factors"
-    },
-    {
-      "title": "Compare options for best practices",
-      "description": "Compares options and tradeoffs for best practices",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "best-practices"
-      ],
-      "slug": "compare-options-for-best-practices"
-    },
-    {
-      "title": "Compare options for case studies",
-      "description": "Compares options and tradeoffs for case studies",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "case-studies"
-      ],
-      "slug": "compare-options-for-case-studies"
-    },
-    {
-      "title": "Compare options for frameworks",
-      "description": "Compares options and tradeoffs for frameworks",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "frameworks"
-      ],
-      "slug": "compare-options-for-frameworks"
-    },
-    {
-      "title": "Compare options for methodologies",
-      "description": "Compares options and tradeoffs for methodologies",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "methodologies"
-      ],
-      "slug": "compare-options-for-methodologies"
-    },
-    {
-      "title": "Compare options for tools comparison",
-      "description": "Compares options and tradeoffs for tools comparison",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "tools-comparison"
-      ],
-      "slug": "compare-options-for-tools-comparison"
-    },
-    {
-      "title": "Compare options for standards",
-      "description": "Compares options and tradeoffs for standards",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "standards"
-      ],
-      "slug": "compare-options-for-standards"
-    },
-    {
-      "title": "Compare options for regulations",
-      "description": "Compares options and tradeoffs for regulations",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "regulations"
-      ],
-      "slug": "compare-options-for-regulations"
-    },
-    {
-      "title": "Compare options for ethics",
-      "description": "Compares options and tradeoffs for ethics",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "ethics"
-      ],
-      "slug": "compare-options-for-ethics"
-    },
-    {
-      "title": "Compare options for bias",
-      "description": "Compares options and tradeoffs for bias",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "bias"
-      ],
-      "slug": "compare-options-for-bias"
-    },
-    {
-      "title": "Compare options for sources",
-      "description": "Compares options and tradeoffs for sources",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "sources"
-      ],
-      "slug": "compare-options-for-sources"
-    },
-    {
-      "title": "Compare options for synthesis",
-      "description": "Compares options and tradeoffs for synthesis",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "synthesis"
-      ],
-      "slug": "compare-options-for-synthesis"
-    },
-    {
-      "title": "Compare options for recommendations",
-      "description": "Compares options and tradeoffs for recommendations",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "recommendations"
-      ],
-      "slug": "compare-options-for-recommendations"
-    },
-    {
-      "title": "Compare options for gap analysis",
-      "description": "Compares options and tradeoffs for gap analysis",
-      "category": "research",
-      "tags": [
-        "comparison",
-        "research",
-        "gap-analysis"
-      ],
-      "slug": "compare-options-for-gap-analysis"
     }
   ]
 }
