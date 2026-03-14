@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * bulk-from-manifest.js — Generate prompts from manifest, then open PRs with auto-merge.
- * Usage: node scripts/bulk-from-manifest.js [manifest.json] [--dry-run] [--generate-only] [--limit N]
+ * Usage: node scripts/bulk-from-manifest.js [manifest.json] [--dry-run] [--generate-only] [--offset N] [--limit N]
  * Run from repo root. Requires gh CLI.
  *
  * manifest.json: optional path (default: scripts/prompts-manifest.json)
@@ -18,13 +18,15 @@ const repoRoot = path.resolve(__dirname, "..");
 function main() {
   const dryRun = process.argv.includes("--dry-run");
   const generateOnly = process.argv.includes("--generate-only");
+  const offsetIdx = process.argv.indexOf("--offset");
+  const offsetArg = offsetIdx !== -1 && process.argv[offsetIdx + 1] ? `--offset ${process.argv[offsetIdx + 1]}` : "";
   const limitIdx = process.argv.indexOf("--limit");
   const limitArg = limitIdx !== -1 && process.argv[limitIdx + 1] ? `--limit ${process.argv[limitIdx + 1]}` : "";
   const jsonArg = process.argv.slice(2).find((a) => !a.startsWith("--") && a.endsWith(".json"));
   const manifestArg = jsonArg ? path.resolve(process.cwd(), jsonArg) : "";
 
   // Step 1: Generate files from manifest
-  const genCmd = ["node", "scripts/generate-from-manifest.js", manifestArg, "--stdout", limitArg].filter(Boolean).join(" ");
+  const genCmd = ["node", "scripts/generate-from-manifest.js", manifestArg, "--stdout", offsetArg, limitArg].filter(Boolean).join(" ");
   const out = execSync(genCmd, { cwd: repoRoot, encoding: "utf8" });
   const paths = out.trim().split(/\r?\n/).filter(Boolean);
 

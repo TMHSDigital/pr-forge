@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * generate-from-manifest.js — Generate prompt .md files from scripts/prompts-manifest.json.
- * Usage: node scripts/generate-from-manifest.js [--stdout]
+ * Usage: node scripts/generate-from-manifest.js [manifest.json] [--stdout] [--offset N] [--limit N]
  * Writes to prompts/<category>/<slug>.md. Use --stdout to print paths only (for piping).
  */
 
@@ -60,6 +60,11 @@ function main() {
 
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
   let prompts = manifest.prompts || [];
+  const offsetIdx = process.argv.indexOf("--offset");
+  if (offsetIdx !== -1 && process.argv[offsetIdx + 1]) {
+    const offset = parseInt(process.argv[offsetIdx + 1], 10);
+    if (offset > 0) prompts = prompts.slice(offset);
+  }
   const limitIdx = process.argv.indexOf("--limit");
   if (limitIdx !== -1 && process.argv[limitIdx + 1]) {
     const limit = parseInt(process.argv[limitIdx + 1], 10);
