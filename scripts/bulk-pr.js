@@ -39,13 +39,7 @@ function sleep(ms) {
 function pullMain() {
   try {
     const status = run("git status --porcelain");
-    if (status.trim().length > 0) {
-      run("git stash push -q -m bulk-pr-auto");
-      run("git pull --ff-only");
-      try { run("git stash pop -q"); } catch (_) {}
-    } else {
-      run("git pull --ff-only");
-    }
+    if (status.trim().length === 0) run("git pull --ff-only");
   } catch (_) {}
 }
 
@@ -132,7 +126,15 @@ function main() {
       stats.skipped++;
       continue;
     }
-    run(`git push -u origin ${branchName}`);
+    try {
+      run(`git push -u origin ${branchName}`);
+    } catch (e) {
+      console.warn(`  Push failed (branch may exist on remote): ${e.stderr || e.message}`);
+      stats.failed++;
+      run("git checkout main");
+      try { run(`git branch -D ${branchName}`); } catch (_) {}
+      continue;
+    }
 
     let prNumber;
     const bodyFile = path.join(os.tmpdir(), `pr-forge-pr-body-${slug}.md`);
