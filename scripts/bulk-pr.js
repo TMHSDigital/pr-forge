@@ -38,7 +38,14 @@ function sleep(ms) {
 
 function pullMain() {
   try {
-    run("git pull --ff-only");
+    const status = run("git status --porcelain");
+    if (status.trim().length > 0) {
+      run("git stash push -q -m bulk-pr-auto");
+      run("git pull --ff-only");
+      try { run("git stash pop -q"); } catch (_) {}
+    } else {
+      run("git pull --ff-only");
+    }
   } catch (_) {}
 }
 
