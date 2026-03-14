@@ -31,6 +31,17 @@ function run(cmd, opts = {}) {
   return execSync(cmd, options);
 }
 
+function sleep(ms) {
+  const end = Date.now() + ms;
+  while (Date.now() < end) {}
+}
+
+function pullMain() {
+  try {
+    run("git pull --ff-only");
+  } catch (_) {}
+}
+
 function main() {
   const args = process.argv.slice(2).filter((a) => a !== "--dry-run");
   const dryRun = process.argv.includes("--dry-run");
@@ -40,6 +51,7 @@ function main() {
     process.exit(1);
   }
 
+  const stats = { created: 0, skipped: 0, failed: 0, autoMergeFailed: 0 };
   const files = args.map((f) => path.resolve(process.cwd(), f));
 
   for (const file of files) {
@@ -49,10 +61,12 @@ function main() {
 
     if (!fs.existsSync(file)) {
       console.error(`Skip: not found: ${relativePath}`);
+      stats.skipped++;
       continue;
     }
     if (!file.endsWith(".md")) {
       console.error(`Skip: not .md: ${relativePath}`);
+      stats.skipped++;
       continue;
     }
 
@@ -88,10 +102,12 @@ function main() {
       run(`node scripts/validate.js "${relativePath}"`);
     } catch (e) {
       console.error(`  FAILED validation: ${relativePath}`);
+      stats.failed++;
       continue;
     }
 
     run("git checkout main");
+    pullMain();
     try {
       run(`git branch -D ${branchName}`);
     } catch (_) {}
@@ -106,6 +122,7 @@ function main() {
         run(`git branch -D ${branchName}`);
       } catch (_) {}
       console.warn(`  Skip: nothing to commit (file may already exist on main)`);
+      stats.skipped++;
       continue;
     }
     run(`git push -u origin ${branchName}`);
@@ -123,23 +140,37 @@ function main() {
     } catch (e) {
       if (fs.existsSync(bodyFile)) fs.unlinkSync(bodyFile);
       console.error("  gh pr create failed:", e.stderr || e.message);
+      stats.failed++;
       run("git checkout main");
       continue;
     }
 
     if (prNumber) {
+      let merged = false;
       try {
         run(`gh pr merge ${prNumber} --auto --squash`);
-        console.log(`  PR #${prNumber} opened, auto-merge enabled.`);
+        merged = true;
       } catch (e) {
-        console.warn("  PR opened but auto-merge failed:", e.stderr || e.message);
+        sleep(3000);
+        try {
+          run(`gh pr merge ${prNumber} --auto --squash`);
+          merged = true;
+        } catch (e2) {
+          console.warn("  PR opened but auto-merge failed:", e2.stderr || e2.message);
+          stats.autoMergeFailed++;
+        }
+      }
+      if (merged) {
+        console.log(`  PR #${prNumber} opened, auto-merge enabled.`);
+        stats.created++;
       }
     }
 
     run("git checkout main");
+    pullMain();
   }
 
-  console.log("\nDone.");
+  console.log(`\nDone. Created: ${stats.created} | Skipped: ${stats.skipped} | Failed: ${stats.failed} | Auto-merge failed: ${stats.autoMergeFailed}`);
 }
 
 main();
